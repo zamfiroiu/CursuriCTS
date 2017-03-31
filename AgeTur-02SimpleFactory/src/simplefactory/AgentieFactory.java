@@ -1,6 +1,7 @@
 package simplefactory;
 
 public class AgentieFactory {
+	
 	public PachetTuristic createPachet(TipPachet tipPachet) throws Exception {
 		switch (tipPachet) {
 		case pachetCazare:

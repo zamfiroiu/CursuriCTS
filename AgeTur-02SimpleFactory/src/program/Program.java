@@ -11,19 +11,20 @@ public class Program {
 		AgentieFactory agentieFactory = new AgentieFactory();
 		PachetTuristic pachetTuristic = null;
 		try {
-			pachetTuristic = agentieFactory.createPachet(TipPachet.pachetCazareSiTransport);
+			pachetTuristic = agentieFactory.createPachet(TipPachet.pachetCazare);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 		pachetTuristic.descriere();
 
-		AgentieSingletonFactory agentieFabrica = AgentieSingletonFactory.getInstanta();
+		/*AgentieSingletonFactory agentieFabrica = AgentieSingletonFactory.getInstanta();
 		try {
 			pachetTuristic = agentieFabrica.createPachet(TipPachet.pachetCazareSiTransport);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		pachetTuristic.descriere();
+		pachetTuristic.descriere();*/
 	}
 
 }

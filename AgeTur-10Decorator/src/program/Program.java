@@ -3,6 +3,7 @@ package program;
 import codulexistent.PachetCazare;
 import codulexistent.PachetTuristic;
 import decorator.OfertaPachetCazare;
+import decorator.OfertaPachetTuristic;
 
 public class Program {
 
@@ -11,7 +12,9 @@ public class Program {
 		pachetTuristic.descriere();
 		System.out.println("Acest pachet nu poate fi anulat");
 		System.out.println();
-		OfertaPachetCazare pachetTuristicOferta=new OfertaPachetCazare(pachetTuristic);
+		
+		
+		OfertaPachetTuristic pachetTuristicOferta=new OfertaPachetCazare(pachetTuristic);
 		pachetTuristicOferta.descriere();
 		System.out.println("Acest pachet poate fi anulat");
 		pachetTuristicOferta.anulareRezervare();

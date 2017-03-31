@@ -9,6 +9,6 @@ public class OfertaPachetCazare extends OfertaPachetTuristic {
 	}
 	@Override
 	public void anulareRezervare() {
-		System.out.println("Rezervarea a fost anulata.");
+		System.out.println("Rezervarea de cazare a fost anulata.");
 	}
 }

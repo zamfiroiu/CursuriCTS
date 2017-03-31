@@ -43,10 +43,5 @@ public class PachetTransportBuilder implements Builder {
 	public PachetTransportBuilder setHasTV(boolean hasTV) {
 		this.hasTV = hasTV;
 		return this;
-	}
-	
-	
-	
-	
-	
+	}	
 }

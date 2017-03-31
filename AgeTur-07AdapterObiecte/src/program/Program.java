@@ -38,7 +38,7 @@ public class Program {
 		System.out.println("Se utilizeaza adapterul");
 		Masina masina2 = new Masina("Renault", 1400);
 		MasinaInchiriata masinaInchiriata2 = new MasinaInchiriata(masina2);
-		PachetMasinaInchiriata pachetMasinaInchiriata = new PachetMasinaInchiriata(masinaInchiriata2);
+		PachetTuristic pachetMasinaInchiriata = new PachetMasinaInchiriata(masinaInchiriata2);
 		System.out.println();
 		System.out.println("Se foloseste metoda de printare");
 		printeazaRezervare(pachetMasinaInchiriata);
